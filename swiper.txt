@@ -1,0 +1,18 @@
+<div className=' p-7 cards gap-x-[320px]  grid grid-cols-3 '>
+        {
+            product4?.map((item)=>(
+                <div className=" mt-[50px] w-[268px] h-[432px] text-center border-none card bg-[#0001] p-3 border-2 rounded-xl overflow-hidden">
+                    <div key={item.id} className="card_img">
+                        <img className='w-[160px]  h-[160px] mt-[40px] ml-[40px] mb-[10px]rounded-xl' src={item.img} alt="" />
+                    </div>
+                    <div className="card_body px-[20px] py-[10px]">
+                        <h1 className='text-[15px]  mt-[15px] font-bold'>{item.name.slice(0,25)}</h1>
+                        <h2 className='my-2 + text-2xl mt-[15px] font-bold'>{item.size} </h2>
+                      
+                    </div>
+                    <div className='  mr-[100px] '><NavLink  className='text-white bg-[#000] hover:bg-[#222933] py-[15px] px-[30px] rounded-lg absolute mt-[20px] '
+                    >Shop now</NavLink></div>
+                </div>
+            ))  
+        }
+    </div>

@@ -1,0 +1,38 @@
+.card-1{
+    background-color: #fff !important;
+}
+
+
+
+.card-2{
+    background-color: #F9F9F9 !important;
+}
+
+
+
+.card-3{
+    background-color: #EAEAEA !important;
+
+}
+
+
+.card-4{
+    background-color: #2C2C2C !important;
+
+}
+
+.af{
+    background-image: linear-gradient(#000, #2E2E2E );
+}
+.card-3 img{
+    margin-bottom: 200px;
+}
+.card-2 img{
+    margin-bottom: 65px;
+}
+.card-4 img{
+    margin-bottom: 80px;
+}
+.acr-4{
+    color: #fff;
+}

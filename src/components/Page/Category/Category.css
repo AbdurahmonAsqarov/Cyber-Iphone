@@ -1,0 +1,21 @@
+.okay .swiper-button-prev{
+  position: absolute;
+  transform: translateX(62vh) translateY(96vh);
+}
+.okay .swiper-button-next{
+  position: absolute;
+  transform: translateX(-62vh) translateY(96vh);
+}
+
+.swiper-slide {
+  height: 300px;
+}
+.swiper-pagination{
+  transform: translateY(200vh);
+}
+.swiper-slide swiper-slide-active{
+  margin: none;
+}
+.swiper-wrapper{
+  margin-right: 200px;
+}
